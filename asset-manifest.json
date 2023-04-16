@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a5e622b3.css",
+    "main.js": "/Portfolio/static/js/main.39f6a3ae.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/codebook.png": "/Portfolio/static/media/codebook.4b758be0bff258025708.png",
+    "static/media/connect4.jpg": "/Portfolio/static/media/connect4.4dd869b395a3454c9468.jpg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.182469b8140461b4f009.png",
+    "static/media/tournament.jpg": "/Portfolio/static/media/tournament.0bccf48b362c2e15f701.jpg",
+    "static/media/wec.png": "/Portfolio/static/media/wec.d773fb6bd09b59526b39.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a5e622b3.css.map": "/Portfolio/static/css/main.a5e622b3.css.map",
+    "main.39f6a3ae.js.map": "/Portfolio/static/js/main.39f6a3ae.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e622b3.css",
+    "static/js/main.39f6a3ae.js"
+  ]
+}
