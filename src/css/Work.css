@@ -3,7 +3,7 @@
 .work-section {
   height: fit-content;
   min-height: 87.5vh;
-  background-color: black;
+  background-color: rgb(14, 32, 58);
   color: rgb(86, 218, 255);
 }
 .work-section h1 {

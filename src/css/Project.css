@@ -1,17 +1,116 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .projects {
-    padding: 1em 0em;
-    height: fit-content;
-    min-height: 90vh;
-    background-color: black;
-    color: rgb(86, 218, 255);
-  }
+  padding: 1em 0em;
+  height: fit-content;
+  min-height: 90vh;
+  background-color: rgb(14, 32, 58);
+  color: rgb(86, 218, 255);
+}
 
-  .projects h1 {
-    margin: 0em auto;
-    font-family: "Montserrat", sans-serif;
-    font-size: 3em;
-    letter-spacing: 0.1em;
+.projects h1 {
+  margin: 0em auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+
+.project-card {
+    margin: 2em;
+    width: 17em;
+    min-height: 22.5em;
+    padding: 1em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    display: flex;
+    flex-direction: column;
   }
   
+  .project-card span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(86, 218, 255);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    margin: 0.5em;
+  }
+  
+  .project-card .project-info {
+    font-weight: 400;
+    color:  rgb(194, 242, 255);
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 1em 1em 0.5em 1em;
+  }
+  
+  .project-card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+.project-img{
+    width: 4.8em;
+    height: 4.8em;
+}
+  .project-card .share {
+    margin: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  .project-card .share p{
+    font-size: 2em;
+    gap: 1em;
+    color: #ffffff;
+  }
+  .project-card .share p:hover{
+    color:rgb(86, 218, 255);
+  }
+
+  .project-card a {
+    transition: .4s ease-in-out;
+  }
+
+  .project-card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .project-card button:hover {
+    cursor: pointer;
+  }
+
+  .project-card:hover{
+    transform: scale(1.05);
+    transition: 750ms;
+  }
+
+  .project-shadow{
+      box-shadow: inset 0 -3em 3em rgba(0, 200, 255, 0.15), 0 0 0 1px rgb(69, 70, 70),
+    0.3em 0.3em 1em rgb(0, 200, 255);
+  }
+
+  .project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.github{
+    text-decoration: none;
+    color: black;
+}

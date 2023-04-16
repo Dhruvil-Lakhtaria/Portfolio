@@ -51,9 +51,9 @@ function SkillCard({ title, items }) {
 
 function SkillIcon({ name, icon }) {
   return (
-    <div className="skillicon">
+    <div className="tooltip">
       <p className="skill-icon">{icon}</p>
-      <p className="skill-text">{name}</p>
+    <span className="tooltiptext">{name}</span>
     </div>
   );
 }

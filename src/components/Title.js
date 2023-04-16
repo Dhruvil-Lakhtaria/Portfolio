@@ -9,7 +9,7 @@ function Title() {
   };
 
   return (
-    <div className="header-title">
+    <div className="header-title" id="top">
       <span className="strike-through">
         Dhruv
         <span className="about-me-i" onClick={handleAboutMe}>
