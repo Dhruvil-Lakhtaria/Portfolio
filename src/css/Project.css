@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.projects {
+    padding: 1em 0em;
+    height: fit-content;
+    min-height: 90vh;
+    background-color: black;
+    color: rgb(86, 218, 255);
+  }
+
+  .projects h1 {
+    margin: 0em auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+  }
+  

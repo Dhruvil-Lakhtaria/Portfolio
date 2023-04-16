@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.skill-section{
+    padding: 0em 0em 2.5em 0em;
+    background-color: black;
+    min-height: 40vh;
+}
+.skill-header{
+    font-size: 3em;
+    margin: 0px auto;
+    
+    color: rgb(86, 218, 255);
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.1em;
+}
+.skill-text{
+    font-size: 1.25em;
+    color: aliceblue;
+}
+
+.skill-icon{
+    margin: 1em;
+    font-size: 2.5em;
+    
+    color: aliceblue;
+}
+.skill-icon:hover {
+    color: rgb(86, 218, 255);
+}
+.skillcard{
+    color: rgb(86, 218, 255);
+    font-size: 0.75em;
+}
+.skillcard h1{
+    margin: 0em 1.25em ;
+
+    text-align: left;
+}
+.skillcard-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.skill-experience{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-lottie{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.work-section {
+  height: fit-content;
+  min-height: 87.5vh;
+  background-color: black;
+  color: rgb(86, 218, 255);
+}
+.work-section h1 {
+  margin: 0em auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+
+.card {
+  margin: 1em auto;
+  width: 15em;
+  height: 20em;
+  background: rgb(53, 53, 53);
+  border-radius: 1em;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+}
+
+.shadow {
+  box-shadow: inset 0 -3em 3em rgba(0, 200, 255, 0.1), 0 0 0 2px rgb(69, 70, 70),
+    0.3em 0.3em 1em rgba(0, 238, 255, 0.3);
+}
+
+.work-img{
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.card h1{
+    font-size: 1.75em;
+    margin: auto;
+    color:  rgb(194, 242, 255);
+}
+.club{
+    display: flex;
+    margin: 2em auto;
+}
+.clubs{
+    padding: 1.5em 0em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.one-job{
+    margin: 1.5em 0em;
+}
+
+.job-text{
+    margin: 0.25em;
+}
+.job-date{
+    font-size: 0.9em;
+    opacity: 0.75;
+}
