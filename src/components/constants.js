@@ -77,7 +77,7 @@ export const skills = [
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Frameworks and Libraries",
     items: [
       {
         id: "fs-1",
@@ -97,7 +97,7 @@ export const skills = [
     ],
   },
   {
-    title: "Tools/Technologies",
+    title: "Tools and Technologies",
     items: [
       {
         id: "tts-1",

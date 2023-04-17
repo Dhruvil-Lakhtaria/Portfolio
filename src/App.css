@@ -47,5 +47,11 @@ html{
   letter-spacing: 0.1em;
   font-family: "Montserrat", sans-serif;
   margin: 0em auto;
-  color: hwb(193 34% 0%);
+  color: rgb(86, 218, 255);
+}
+
+@media (max-width:425px) {
+  .section-header{
+    font-size: 2.5em;
+  }
 }

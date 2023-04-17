@@ -106,3 +106,12 @@
     text-decoration: none;
     color: black;
 }
+
+@media (max-width:400px)
+{
+  .project-card{
+    margin: 1em;
+    width: 13em;
+  }
+
+}
