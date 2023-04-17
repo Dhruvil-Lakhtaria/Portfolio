@@ -11,22 +11,23 @@ function Skills() {
     animationData: skillLottie,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
-    },
+    }
   };
   return (
     <div className="skill-section">
-      <h1 className="skill-header">SKILLS</h1>
+      <h1 className="section-header">SKILLS</h1>
       <div className="skill-experience">
         <div>
           {skills.map((item) => (
             <SkillCard title={item.title} items={item.items} />
           ))}
         </div>
+
         <div className="skill-lottie">
           <Lottie
             options={defaultOptions}
-            height={400}
-            width={400}
+            height="20em"
+            width="20em"
             isStopped={false}
             isPaused={false}
           />

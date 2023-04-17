@@ -6,7 +6,7 @@ import { Timeline } from "rsuite";
 function Work() {
   return (
     <div className="work-section">
-      <h1>EXPERIENCE</h1>
+      <h1 className="section-header">EXPERIENCE</h1>
       <div className="clubs">
         {experience.map((company) => (
           <div className="club">

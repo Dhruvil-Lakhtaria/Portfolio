@@ -4,7 +4,7 @@ import { project } from "./constants";
 function Project() {
   return (
     <div className="projects">
-      <h1>PROJECTS</h1>
+      <h1 className="section-header">PROJECTS</h1>
       <div className="project-cards">
         {project.map((project) => (
           <ProjectCard details={project} />

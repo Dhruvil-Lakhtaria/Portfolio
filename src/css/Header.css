@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 .header-title {
   display: flex;
@@ -12,7 +12,7 @@
   background-color: rgb(14, 32, 58);
   font-family: "Montserrat", sans-serif;
 
-  color:  rgb(86, 218, 255);
+  color: rgb(86, 218, 255);
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 .strike-through:hover:before {
-  background:#00b3ff;
+  background: #00b3ff;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -59,23 +59,22 @@
   color: #00b3ff;
 }
 
-.marque-text{
+.marque-text {
   font-size: 1.5em;
-  height:min-content;
+  height: min-content;
   width: 50%;
   background-color: rgb(23, 205, 255);
   color: black;
   padding: 0.5em 0;
 }
 
-.about-me-i{
+.about-me-i {
   font-size: 1.5em;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   text-transform: lowercase;
   color: rgb(184, 250, 255);
   margin: 0em;
 }
-
 
 .quote-wrapper {
   height: 80%;
@@ -105,7 +104,7 @@
   margin: 0;
   color: white;
 }
-.animate-1{
+.animate-1 {
   animation: fadeOut 1000ms ease-out backwards;
 }
 
@@ -167,7 +166,7 @@
   height: 22em;
   /* position: absolute; */
   bottom: 45px;
-  font-size: 0.70em;
+  font-size: 0.7em;
   text-align: center;
   text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
 }
@@ -187,12 +186,18 @@
   opacity: 0.9;
 }
 
-
-/* @media (max-width: 600px) {
-  .header-title{
-    font-size: 0.75em;
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 0.70em;
   }
-  
+}
+
+@media (max-width: 405px) {
+  .header-title {
+    font-size: 0.55em;
+  }
+}
+/*
   .quote-wrapper {
     width: 370px;
     height: 370px;
@@ -227,7 +232,6 @@
     opacity: 1;
   }
 }
-
 
 @keyframes fadeOut {
   from {

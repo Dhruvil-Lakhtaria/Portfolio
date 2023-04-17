@@ -17,6 +17,7 @@
 .left-footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-btn {
@@ -143,11 +144,13 @@
 .fill-right {
   display: inline;
   text-decoration: none;
+  user-select: none;
   -webkit-user-select: none;
 }
 
 .fill-right {
   box-sizing: border-box;
+  user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-touch-callout: none;
@@ -157,6 +160,7 @@
 }
 
 .fill-right {
+  transition: color 1s ease;
   -webkit-transition: color 1s ease;
   -moz-transition: color 1s ease;
   -ms-transition: color 1s ease;
@@ -167,6 +171,7 @@
   position: relative;
   z-index: 2;
   -moz-box-sizing: border-box;
+  box-sizing:border-box;
   -webkit-box-sizing: border-box;
   user-select: none;
   padding: 0.25em 0.1em; 
@@ -175,6 +180,7 @@
 
 .fill-right:focus,
 .fill-right:hover {
+  transition: color 1s ease;
   -webkit-transition: color 1s ease;
   -moz-transition: color 1s ease;
   -ms-transition: color 1s ease;
@@ -286,4 +292,38 @@
 
 .contact-icon a:hover{
     color: #2cc3ff;
+}
+.bottom-section {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-section p{
+  letter-spacing: 0.1em;
+}
+.heart{
+  color: rgb(255, 41, 41);
+}
+.cr{
+  margin: 0em 0.25em;
+}
+
+
+@media (max-width: 780px) {
+  .footer-section{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-footer{
+    flex-direction: row;
+    width: 100%;
+  }
+  .right-footer{
+    width: 80%;
+  }
+  .contact-me{
+    align-items: center;
+  }
 }

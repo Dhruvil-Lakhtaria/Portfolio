@@ -5,14 +5,6 @@
   height: fit-content;
   min-height: 90vh;
   background-color: rgb(14, 32, 58);
-  color: rgb(86, 218, 255);
-}
-
-.projects h1 {
-  margin: 0em auto;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3em;
-  letter-spacing: 0.1em;
 }
 
 .project-card {

@@ -6,12 +6,6 @@
   background-color: rgb(14, 32, 58);
   color: rgb(86, 218, 255);
 }
-.work-section h1 {
-  margin: 0em auto;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3em;
-  letter-spacing: 0.1em;
-}
 
 .card {
   margin: 1em auto;
@@ -60,3 +54,14 @@
     font-size: 0.9em;
     opacity: 0.75;
 }
+
+@media (max-width: 550px){
+  .card{
+    height: 16em;
+    width: 11em;
+  }
+  .club-timeline{
+    width: 50%;
+  }
+}
+

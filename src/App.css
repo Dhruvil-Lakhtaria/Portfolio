@@ -41,3 +41,11 @@ html{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.section-header{
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat", sans-serif;
+  margin: 0em auto;
+  color: hwb(193 34% 0%);
+}
