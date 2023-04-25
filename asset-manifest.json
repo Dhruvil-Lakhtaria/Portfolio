@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.46ae3f44.css",
+    "main.css": "/Portfolio/static/css/main.61300ba7.css",
     "main.js": "/Portfolio/static/js/main.b368d596.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/codebook.png": "/Portfolio/static/media/codebook.4b758be0bff258025708.png",
@@ -9,12 +9,12 @@
     "static/media/tournament.jpg": "/Portfolio/static/media/tournament.0bccf48b362c2e15f701.jpg",
     "static/media/wec.png": "/Portfolio/static/media/wec.d773fb6bd09b59526b39.png",
     "index.html": "/Portfolio/index.html",
-    "main.46ae3f44.css.map": "/Portfolio/static/css/main.46ae3f44.css.map",
+    "main.61300ba7.css.map": "/Portfolio/static/css/main.61300ba7.css.map",
     "main.b368d596.js.map": "/Portfolio/static/js/main.b368d596.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46ae3f44.css",
+    "static/css/main.61300ba7.css",
     "static/js/main.b368d596.js"
   ]
 }
