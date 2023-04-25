@@ -338,4 +338,7 @@
     height: 75px;
     line-height: 78px;
   }
+  .footer-section{
+    min-height: fit-content;
+  }
 }

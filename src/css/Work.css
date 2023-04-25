@@ -23,46 +23,47 @@
     0.3em 0.3em 1em rgba(0, 238, 255, 0.3);
 }
 
-.work-img{
-    width: 100%;
-    border-radius: 1em 1em 0em 0em;
+.work-img {
+  width: 100%;
+  border-radius: 1em 1em 0em 0em;
 }
 
-.card h1{
-    font-size: 1.75em;
-    margin: auto;
-    color:  rgb(194, 242, 255);
+.card h1 {
+  font-size: 1.75em;
+  margin: auto;
+  color: rgb(194, 242, 255);
 }
-.club{
-    display: flex;
-    margin: 2em auto;
+.club {
+  display: flex;
+  margin: 2em auto;
 }
-.clubs{
-    padding: 1.5em 0em;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.clubs {
+  padding: 1.5em 0em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.one-job{
-    margin: 1.5em 0em;
-}
-
-.job-text{
-    margin: 0.25em;
-    
-}
-.job-date{
-    font-size: 0.9em;
-    opacity: 0.75;
+.one-job {
+  margin: 1.5em 0em;
 }
 
-@media (max-width: 550px){
-  .card{
+.job-text {
+  margin: 0.25em;
+}
+.job-date {
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+@media (max-width: 550px) {
+  .card {
     height: 16em;
     width: 11em;
   }
-  .club-timeline{
+  .club-timeline {
     width: 50%;
   }
+  .work-section {
+    min-height: fit-content;
+  }
 }
-

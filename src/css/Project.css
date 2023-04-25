@@ -113,5 +113,9 @@
     margin: 1em;
     width: 13em;
   }
+  .projects{
+    
+  min-height: fit-content;
+  }
 
 }
