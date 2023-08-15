@@ -29,7 +29,7 @@ import connect4 from "../assets/connect4.jpg";
 import tournament from "../assets/tournament.jpg";
 import judge from "../assets/judge.jpg";
 import codebook from "../assets/codebook.png";
-
+import uber from "../assets/uber.png"
 export const skills = [
   {
     title: "Programming Languages",
@@ -134,6 +134,16 @@ export const skills = [
 ];
 
 export const experience = [
+  {
+    name: "Uber India",
+    image: uber,
+    work: [
+      {
+        date: "May 2023 - July 2023",
+        details: "Software Engineering Intern",
+      },
+    ],
+  },
   {
     name: "Web Club",
     image: wec,
